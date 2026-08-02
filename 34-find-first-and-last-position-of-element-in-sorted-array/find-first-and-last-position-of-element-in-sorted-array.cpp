@@ -1,6 +1,6 @@
 class Solution {
 public:
-int lowerbound(vector<int>arr,int target,int n)
+int lowerbound(vector<int>&arr,int target,int n)
 {
     int low=0;
     int high=n-1;
@@ -20,7 +20,7 @@ int lowerbound(vector<int>arr,int target,int n)
     }
     return ans;
 }
-int upperbound(vector<int>arr,int target,int n)
+int upperbound(vector<int>&arr,int target,int n)
 {
     int ans=n;
 
